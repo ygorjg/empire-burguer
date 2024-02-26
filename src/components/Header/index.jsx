@@ -34,7 +34,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/assets/icons/ifood.svg"
+              src="/assets/icons/white-ifood.svg"
               className="ifood-icon"
               alt="Logo iFood"
             />
@@ -45,7 +45,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/assets/icons/instagram.svg"
+              src="/assets/icons/white-instagram.svg"
               className="instagram-icon"
               alt="Logo Instagram"
             />

@@ -33,7 +33,7 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-evenly;
     margin-top: 8px;
-    width: 90px;
+    width: 5.625rem;
   }
 
   .menu-icon {
