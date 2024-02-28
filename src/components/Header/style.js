@@ -7,6 +7,7 @@ export const Container = styled.header`
   background-color: #3b200b0c;
   width: 100vw;
   height: 3.75rem;
+  position: absolute;
 
   .logo {
     width: 14rem;
