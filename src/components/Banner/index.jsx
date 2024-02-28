@@ -17,7 +17,7 @@ const Banner = () => {
 
   return (
     <Container>
-      <div className="banner-texts">
+      <div className="banner-ad">
         <h4>Uma nova experiência!</h4>
         <h1>
           KING <span>BURGER</span>
@@ -40,6 +40,31 @@ const Banner = () => {
           alt="Banner King Burger"
         />
       )}
+      <div className="banner-details-container">
+        <div className="banner-details-content">
+          <img src="assets/icons/burger.svg" alt="Ícone Burguer" />
+          <div>
+            <h4>ARTESANAL</h4>
+            <p>Nossas receitas são feitas com todo cuidado</p>
+          </div>
+        </div>
+        <div className="tab"></div>
+        <div className="banner-details-content">
+          <img src="assets/icons/headset.svg" alt="Ícone Atendimento" />
+          <div>
+            <h4>ATENDIMENTO</h4>
+            <p>Totalmente personalizado</p>
+          </div>
+        </div>
+        <div className="tab"></div>
+        <div className="banner-details-content">
+          <img src="assets/icons/delivery.svg" alt="Ícone Delivery" />
+          <div>
+            <h4>DELIVERY SPEED</h4>
+            <p>Entregamos em menos de 30 minutos</p>
+          </div>
+        </div>
+      </div>
     </Container>
   );
 };
